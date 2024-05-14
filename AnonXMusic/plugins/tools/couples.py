@@ -8,8 +8,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.enums import *
 
 #BOT FILE NAME
-from Anonxmusic import app as app
-from Anonxmusic.mongo.couples_db import _get_image, get_couple
+from AnonXMusic import app as app
+from AnonXMusic.mongo.couples_db import _get_image, get_couple
 
 POLICE = [
     [
@@ -76,12 +76,12 @@ async def ctest(_, message):
          try:
             p2 = await app.download_media(photo2.big_file_id, file_name="pfp1.png")
          except Exception:
-            p2 = "Anonxmusic/assets/upic.png"
+            p2 = "AnonXMusic/assets/upic.png"
             
          img1 = Image.open(f"{p1}")
          img2 = Image.open(f"{p2}")
 
-         img = Image.open("Anonxmusic/assets/COUPLES2.PNG")
+         img = Image.open("AnonXMusic/assets/COUPLES2.PNG")
 
          img1 = img1.resize((390, 390))
          img2 = img2.resize((390,390))
