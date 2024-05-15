@@ -2,11 +2,11 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
-from ANNIEMUSIC import app
+from AnonXMusic import app
 
 #--------------------------
 
-MUST_JOIN = "JARVIS_V_SUPPORT"
+MUST_JOIN = "BTSChinna"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
