@@ -1,7 +1,7 @@
 {
     "name": "𝐊𝐢𝐝 ダ 𝐦𝐮𝐬𝐢𝐜",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "",
+    "logo": "https://telegra.ph/file/0ec34774fcb33d12ce8be.jpg",
     "keywords": [
     "python3",
     "telegram",
