@@ -25,7 +25,7 @@ from strings import get_string
 
 
 
-AnonX_pics[
+Anon_pics[
 "https://telegra.ph/file/190cec37aaa086e36ff05.jpg"
 "https://telegra.ph/file/650fa55fc8cb640ec3e06.jpg"
 "https://telegra.ph/file/30c4b68e3b79f18d74e02.jpg"
