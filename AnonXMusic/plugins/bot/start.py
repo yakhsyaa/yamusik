@@ -35,8 +35,6 @@ from strings import get_string
 "https://telegra.ph/file/6af16b1d6c406cd8c2283.jpg"
 "https://telegra.ph/file/8d7b534e34e13316a7dd2.jpg"
 
-]
-
 
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
