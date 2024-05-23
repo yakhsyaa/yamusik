@@ -24,6 +24,20 @@ from config import BANNED_USERS
 from strings import get_string
 
 
+AnonXMusic_pics[
+"https://telegra.ph/file/190cec37aaa086e36ff05.jpg"
+"https://telegra.ph/file/650fa55fc8cb640ec3e06.jpg"
+"https://telegra.ph/file/30c4b68e3b79f18d74e02.jpg"
+"https://telegra.ph/file/6202ac53d5c89cf44d303.jpg"
+"https://telegra.ph/file/1ae16706cf421656b0128.jpg"
+"https://telegra.ph/file/c8d963935f742128c7693.jpg"
+"https://telegra.ph/file/85dd3577fa6cb810fd111.jpg"
+"https://telegra.ph/file/6af16b1d6c406cd8c2283.jpg"
+https://telegra.ph/file/8d7b534e34e13316a7dd2.jpg
+
+]
+
+
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
 @LanguageStart
 async def start_pm(client, message: Message, _):
