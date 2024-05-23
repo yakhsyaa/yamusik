@@ -24,6 +24,7 @@ from config import BANNED_USERS
 from strings import get_string
 
 
+
 AnonXMusic_pics[
 "https://telegra.ph/file/190cec37aaa086e36ff05.jpg"
 "https://telegra.ph/file/650fa55fc8cb640ec3e06.jpg"
@@ -36,6 +37,7 @@ AnonXMusic_pics[
 "https://telegra.ph/file/8d7b534e34e13316a7dd2.jpg"
 
 ]
+
 
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
