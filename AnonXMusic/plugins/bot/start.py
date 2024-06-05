@@ -35,6 +35,19 @@ from strings import get_string
 "https://telegra.ph/file/6af16b1d6c406cd8c2283.jpg"
 "https://telegra.ph/file/8d7b534e34e13316a7dd2.jpg"
 "https://telegra.ph/file/0ee1792cbb53fcb6ea31f.jpg"
+"https://telegra.ph/file/7c034e706a80da21a5173.jpg"
+"https://telegra.ph/file/0ee1792cbb53fcb6ea31f.jpg"
+"https://telegra.ph/file/cfffbd26db21a7d04008a.jpg"
+"https://telegra.ph/file/54f0816ba94267c41e63d.jpg"
+"https://telegra.ph/file/2f92efe09bedbdbb5aacb.jpg"
+"https://telegra.ph/file/ee17b0ca4933f7e943ad5.jpg"
+"https://telegra.ph/file/080e0f509751aa176062a.jpg"
+"https://telegra.ph/file/c4c2297aabf2c7db14cbb.jpg"
+"https://telegra.ph/file/c4c2297aabf2c7db14cbb.jpg"
+"https://telegra.ph/file/d82f0cef93b47b59790a4.jpg"
+"https://telegra.ph/file/7724972b72b6d7d833dec.jpg"
+
+
 
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
