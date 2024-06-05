@@ -46,7 +46,7 @@ from strings import get_string
 "https://telegra.ph/file/c4c2297aabf2c7db14cbb.jpg"
 "https://telegra.ph/file/d82f0cef93b47b59790a4.jpg"
 "https://telegra.ph/file/7724972b72b6d7d833dec.jpg"
-
+"https://telegra.ph/file/9e170bd102c6198c4cfb9.jpg"
 
 
 
