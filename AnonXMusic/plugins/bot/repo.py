@@ -19,7 +19,7 @@ async def start(_, msg):
     buttons = [
         [
           InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/BTS_network_op"),
-          InlineKeyboardButton("ʀᴇᴘᴏ", url="https://github.com/SH251204/BuGMusix"),
+          InlineKeyboardButton("update", url="https://t.me/aboutBtschinna"),
           ],
     ]
     
