@@ -3,7 +3,7 @@ import time
 from pyrogram import filters
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from youtubesearchpython._future_ import VideosSearch
+from youtubesearchpython.__future__ import VideosSearch
 
 import config
 from AnonXMusic import app
