@@ -150,10 +150,11 @@ async def welcome(client, message: Message):
                     )
                     return await app.leave_chat(message.chat.id)
 
-                out = start_panel(_)
-                await message.reply_photo(
-                    photo=config.START_IMG_URL,
-                    caption=_["start_3"].format(
+                userbot = await get_assistant(message.chat.id)
+                out = start_pannel(_)
+
+                video_url = "https://telegra.ph/file/acfb445238b05315f0013.mp4"  # Replace with the actual URL of the video
+                video_caption = _["start_3"].format(config.MUSIC_BOT_NAME, userbot.username, userbot.id)
                         message.from_user.first_name,
                         app.mention,
                         message.chat.title,
