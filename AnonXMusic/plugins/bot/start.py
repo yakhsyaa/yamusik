@@ -155,6 +155,7 @@ async def welcome(client, message: Message):
 
                 video_url = "https://telegra.ph/file/acfb445238b05315f0013.mp4"  # Replace with the actual URL of the video
                 video_caption = _["start_3"].format(config.MUSIC_BOT_NAME, userbot.username, userbot.id)
+                
                         await app.send_video(
                     message.chat.id,
                     video_url,
