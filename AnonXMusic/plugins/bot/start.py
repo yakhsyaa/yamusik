@@ -24,7 +24,7 @@ from config import BANNED_USERS
 from strings import get_string
 
 
-
+BTS_PICS=[
 "https://telegra.ph/file/190cec37aaa086e36ff05.jpg"
 "https://telegra.ph/file/650fa55fc8cb640ec3e06.jpg"
 "https://telegra.ph/file/30c4b68e3b79f18d74e02.jpg"
@@ -47,9 +47,15 @@ from strings import get_string
 "https://telegra.ph/file/d82f0cef93b47b59790a4.jpg"
 "https://telegra.ph/file/7724972b72b6d7d833dec.jpg"
 "https://telegra.ph/file/9e170bd102c6198c4cfb9.jpg"
+"https://telegra.ph/file/0dbe331f2e5fd98310cd5.jpg"
+"https://telegra.ph/file/0dbe331f2e5fd98310cd5.jpg"
+"https://telegra.ph/file/0dbe331f2e5fd98310cd5.jpg"
+"https://telegra.ph/file/0dbe331f2e5fd98310cd5.jpg"
+"https://telegra.ph/file/0dbe331f2e5fd98310cd5.jpg"
+"https://telegra.ph/file/0dbe331f2e5fd98310cd5.jpg"
+"https://telegra.ph/file/0dbe331f2e5fd98310cd5.jpg"
 
-
-
+]
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
 @LanguageStart
 async def start_pm(client, message: Message, _):
