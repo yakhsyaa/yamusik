@@ -34,7 +34,7 @@ add_buttons = InlineKeyboardMarkup([[InlineKeyboardButton(text= "๏ ᴀᴅᴅ �
                               
 @app.on_message(filters.command("nightmode") & filters.group)
 async def _nightmode(_, message):
-    return await message.reply_photo(photo="https://telegra.ph/Chinna-06-07-2", caption="**ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴇɴᴀʙʟᴇ ᴏʀ ᴅɪsᴀʙʟᴇ ɴɪɢʜᴛᴍᴏᴅᴇ ɪɴ ᴛʜɪs ᴄʜᴀᴛ.**",reply_markup=buttons)
+    return await message.reply_photo(photo="https://graph.org/file/ebb0d85faab06c034ed4c.jpg", caption="**ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴇɴᴀʙʟᴇ ᴏʀ ᴅɪsᴀʙʟᴇ ɴɪɢʜᴛᴍᴏᴅᴇ ɪɴ ᴛʜɪs ᴄʜᴀᴛ.**",reply_markup=buttons)
               
      
 @app.on_callback_query(filters.regex("^(add_night|rm_night)$"))
@@ -73,7 +73,7 @@ async def start_nightmode() :
         try:
             await app.send_photo(
                 add_chat,
-                photo="https://telegra.ph/Chinna-06-07-2"
+                photo="https://graph.org/file/ebb0d85faab06c034ed4c.jpg"
                 caption= f"**ᴍᴀʏ ᴛʜᴇ ᴀɴɢᴇʟs ғʀᴏᴍ ʜᴇᴀᴠᴇɴ ʙʀɪɴɢ ᴛʜᴇ sᴡᴇᴇᴛᴇsᴛ ᴏғ ᴀʟʟ ᴅʀᴇᴀᴍs ғᴏʀ ʏᴏᴜ. ᴍᴀʏ ʏᴏᴜ ʜᴀᴠᴇ ʟᴏɴɢ ᴀɴᴅ ʙʟɪssғᴜʟ sʟᴇᴇᴘ ғᴜʟʟ ᴏғ ʜᴀᴘᴘʏ ᴅʀᴇᴀᴍs.\n\nɢʀᴏᴜᴘ ɪs ᴄʟᴏsɪɴɢ ɢᴏᴏᴅ ɴɪɢʜᴛ ᴇᴠᴇʀʏᴏɴᴇ  !**",
                 reply_markup=add_buttons,)
             
