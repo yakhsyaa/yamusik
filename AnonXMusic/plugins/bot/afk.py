@@ -2,9 +2,9 @@ import time, re
 from pyrogram.enums import MessageEntityType
 from pyrogram import filters
 from pyrogram.types import Message
-from MOONMUSIC import app
-from MOONMUSIC.mongo.readable_time import get_readable_time
-from MOONMUSIC.mongo.afkdb import add_afk, is_afk, remove_afk
+from AnonXMusic import app
+from AnonXMusic.mongo.readable_time import get_readable_time
+from AnonXMusic.mongo.afkdb import add_afk, is_afk, remove_afk
 
 
 
