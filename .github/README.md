@@ -27,3 +27,5 @@
 <p align="center">
 <a href="https://telegram.me/BTSChinna"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
+
+Owner - Chinna
