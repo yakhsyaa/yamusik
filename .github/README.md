@@ -35,4 +35,3 @@
 # 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 💗🥀
 <a href="https://t.me/BTSChinna_op"><img title="Telegram" src="https://img.shields.io/badge/ᬃ ⃪ ⷬ ⷡ ⷯ 𝐈𝛕ᷟ‌𝚣⃪ꙴ ⋆‌⃝๛𝐂𝐡𝐢𝐧𝐧𝐚™๛٭》 ✘ ๏𝕡✨-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
 
-<a href="https://telegram.com/aboutchinna_op"><img title="telegram" src="https://img.shields.io/badge/telegram-%23E4405F.svg?&style=for-the-badge&logo=telegram &logoColor=white"></a>
