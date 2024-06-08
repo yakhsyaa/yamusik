@@ -1,7 +1,7 @@
 <h2 align="center">
 [💗꯭꯭꯭꯭᭄꯭꯭꯭🇹‌𝗵𝗮𝗻𝘂🇽‌𝗺𝘂𝘀𝗶𝗰]
 
-<h3><img  style="align-item" :"center" src="https://telegra.ph/file/fbd55ee956abef2a74e15.jpg" width="80px" height="70%"><img 
+<h3><img  style="align-item" :"center" src="https://telegra.ph/file/1111bac828a1370a67346.jpg" width="80px" height="70%"><img 
 
 ★ 𝙷𝙴𝚁𝙾𝙺𝚄 + 𝚅𝙿𝚂 ★
 </h2>
