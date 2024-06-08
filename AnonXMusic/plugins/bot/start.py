@@ -25,8 +25,7 @@ from strings import get_string
 
 Anon_vID =[
 "https://telegra.ph/file/cba632240b79207bf8a9c.mp4"  
-    
-]
+   ]
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
 @LanguageStart
