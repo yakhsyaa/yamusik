@@ -1,7 +1,7 @@
 import os
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from pydub__ import AudioSegment
+from AnonX import AudioSegment
 import speech_recognition as sr
 from AnonXMusic import app
 # --------------------------------------
