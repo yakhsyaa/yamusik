@@ -2,9 +2,9 @@ import math
 
 from pyrogram.types import InlineKeyboardButton
 
-from MOONMUSIC.utils.formatters import time_to_seconds
+from AnonXMusic.utils.formatters import time_to_seconds
 
-from MOONMUSIC import app
+from AnonXMusic import app
 
 def track_markup(_, videoid, user_id, channel, fplay):
     buttons = [
