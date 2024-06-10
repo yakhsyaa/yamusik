@@ -60,6 +60,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text=f"★ 𝗝𝗢𝗜𝗡 ★",url="https://t.me/MOON_SOCIETYY
         ],
         [
             InlineKeyboardButton(
@@ -68,11 +69,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
-             )
-            InlineKeyboardButton(
-                text=f"★ 𝗝𝗢𝗜𝗡 ★",
-              url="https://t.me/MOON_SOCIETYY",    
-        
+       )      
     ]
     return buttons
 
@@ -85,11 +82,9 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text=f"★ 𝗝𝗢𝗜𝗡 ★",url="https://t.me/MOON_SOCIETYY
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
-        InlineKeyboardButton(
-                text=f"★ 𝗝𝗢𝗜𝗡 ★",
-              url="https://t.me/MOON_SOCIETYY",    
         ) 
     ]
     return buttons
