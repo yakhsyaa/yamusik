@@ -21,10 +21,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
-           ),
-            InlineKeyboardButton(
-                text=f"★ 𝗝𝗢𝗜𝗡 ★",
-              url="https://t.me/MOON_SOCIETYY",    
+      
             )
         ],
     ]
@@ -71,6 +68,11 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+             ),
+            InlineKeyboardButton(
+                text=f"★ 𝗝𝗢𝗜𝗡 ★",
+              url="https://t.me/MOON_SOCIETYY",    
+        
     ]
     return buttons
 
