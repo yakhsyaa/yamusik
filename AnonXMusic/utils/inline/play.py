@@ -31,8 +31,8 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text=f"★ 𝗝𝗢𝗜𝗡 ★",
-              url="https://t.me/MOON_SOCIETYY",
+                text=f"★chinna ★",
+              url="https://t.me/BTSChinna_op",
             ),
         ],
     ]
