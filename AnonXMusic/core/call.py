@@ -8,8 +8,7 @@ from pyrogram.types import InlineKeyboardMarkup
 from pytgcalls import PyTgCalls, StreamType
 from pytgcalls.exceptions import AlreadyJoinedError,NoActiveGroupCall
 from pytgcalls.types import ( Anony
-
-      TelegramServerError
+from pytgcalls import TelegramServerError
 
 )
 from pytgcalls.types import Update
