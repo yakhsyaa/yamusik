@@ -3,7 +3,6 @@ from datetime import datetime, timedelta
 from typing import Union
 
 from pyrogram import Client
-TelegramServerError from pytgcalls 
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.errors import (
     ChatAdminRequired,
