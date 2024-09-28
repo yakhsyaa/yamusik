@@ -3,9 +3,7 @@ import random
 import string
 from time import time
 
-import httpx
 from pyrogram import filters
-from pyrogram.errors import FloodWait
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
