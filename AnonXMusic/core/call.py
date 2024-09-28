@@ -6,10 +6,9 @@ from typing import Union
 from pyrogram import Client
 from pyrogram.types import InlineKeyboardMarkup
 from pytgcalls import PyTgCalls, StreamType
-from pytgcalls.exceptions import Anony
-    AlreadyJoinedError,
-    NoActiveGroupCall,
-    TelegramServerError,
+from pytgcalls.exceptions import AlreadyJoinedError,NoActiveGroupCall
+  from pytgcalls.types import (  
+    
 )
 from pytgcalls.types import Update
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
