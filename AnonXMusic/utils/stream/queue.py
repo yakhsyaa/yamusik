@@ -1,8 +1,9 @@
 from typing import Union
 
+from AnonXMusic.misc import db
 from AnonXMusic.utils.formatters import check_duration, seconds_to_min
 from config.import time_to_seconds
-from AnonXMusic.misc import db
+
 
 
 async def put_queue(
