@@ -39,7 +39,7 @@
 - Install Node js by :
  `curl -fssL https://deb.nodesource.com/setup_19.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 - Clone the repository by :
- `git clone https://github.com/dattudd/Anonxmusic- && cd Thanu-X-MUSIC`
+ `git clone https://github.com/JIYOXC/Wleowleo && cd Wleowleo`
 - Install requirements by :
  `pip3 install -U -r requirements.txt`
 - Fill your variables in the env by :
