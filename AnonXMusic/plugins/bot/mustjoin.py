@@ -27,7 +27,7 @@ MISHI = [
 
 #--------------------------
 
-MUST_JOIN = "BTS_network_op"
+MUST_JOIN = "ERROR_RESPON_TIMEOUT"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
