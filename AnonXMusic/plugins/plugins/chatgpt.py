@@ -1,7 +1,8 @@
 from pyrogram import filters
 from pyrogram.enums import ChatAction
 #from TheApi import api
-
+from MukeshApi import *
+from SafoneAPI import *
 from AnonXMusic import app
 from config import BANNED_USERS
 
