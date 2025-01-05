@@ -25,7 +25,7 @@ SOFTWARE."""
 from pyrogram import filters
 from pyrogram.types import  Message
 from pyrogram.types import InputMediaPhoto
-from AnonXMusic.core.userbot import pbot as Mukesh
+from AnonXMusic import app as Mukesh
 from config import BOT_USERNAME
 from MukeshAPI import api
 from pyrogram.enums import ChatAction,ParseMode
