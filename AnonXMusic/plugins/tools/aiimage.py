@@ -23,7 +23,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE."""
 from pyrogram import filters
-from pyrogram.types import  Message
+from pyrogram.types import Message
 from pyrogram.types import InputMediaPhoto
 from AnonXMusic import app as Mukesh
 from config import BOT_USERNAME
