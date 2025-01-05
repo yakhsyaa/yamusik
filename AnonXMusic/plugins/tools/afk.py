@@ -3,9 +3,9 @@ from config import BOT_USERNAME
 from pyrogram.enums import MessageEntityType
 from pyrogram import filters
 from pyrogram.types import Message
-from Auput import app
-from Auput.mongo.readable_time import get_readable_time
-from Auput.mongo.afkdb import add_afk, is_afk, remove_afk
+from AnonXMusic import app
+from AnonXMusic.Mongo.readable_time import get_readable_time
+from AnonXMusic.Mongo.afkdb import add_afk, is_afk, remove_afk
 
 
 
