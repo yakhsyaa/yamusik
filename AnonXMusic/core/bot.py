@@ -1,6 +1,6 @@
 from pyrogram import Client, errors
 from pyrogram.enums import ChatMemberStatus, ParseMode
-
+from aiohttp import ClientSession
 import config
 
 from ..logging import LOGGER
@@ -52,3 +52,6 @@ class Anony(Client):
 
     async def stop(self):
         await super().stop()
+pbot = Client("MukeshRobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN,in_memory=True)
+dispatcher = updater.dispatcher
+aiohttpsession = ClientSession()
