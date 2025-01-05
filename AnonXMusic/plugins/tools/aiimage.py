@@ -35,7 +35,7 @@ async def imagine_(b, message: Message):
     if message.reply_to_message:
         text = message.reply_to_message.text
     else:
-        text =message.text.split(None)[1]
+        text =message.text.split(" ", 1)[1]
     mukesh=await message.reply_text( "`Please wait...,\n\nGenerating prompt .. ...`")
     try:
         await b.send_chat_action(message.chat.id, ChatAction.UPLOAD_PHOTO)
