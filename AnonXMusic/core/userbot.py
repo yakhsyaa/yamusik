@@ -168,7 +168,3 @@ class Userbot(Client):
                 await self.five.stop()
         except:
             pass
-
-pbot = Client("MukeshRobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN,in_memory=True)
-dispatcher = updater.dispatcher
-aiohttpsession = ClientSession()
