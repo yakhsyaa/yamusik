@@ -1,9 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import  Message
 from pyrogram.types import InputMediaPhoto
-from AnonXMusic import app,BOT_USERNAME
+from AnonXMusic import app
 from MukeshAPI import api
 from pyrogram.enums import ChatAction,ParseMode
+from config import BOT_USERNAME
 
 @app.on_message(filters.command("imagine"))
 async def imagine_(b, message: Message):
@@ -16,7 +17,7 @@ async def imagine_(b, message: Message):
     try:
         await b.send_chat_action(message.chat.id, ChatAction.UPLOAD_PHOTO)
         x=api.ai_image(text)
-        with open("mukesh.jpg", 'wb') as f:
+        with open("xteam.jpg", 'wb') as f:
             f.write(x)
         caption = f"""
     💘sᴜᴄᴇssғᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ : {text}
@@ -24,7 +25,7 @@ async def imagine_(b, message: Message):
     🥀ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}
     """
         await mukesh.delete()
-        await message.reply_photo("mukesh.jpg",caption=caption,quote=True)
+        await message.reply_photo("xteam.jpg",caption=caption,quote=True)
     except Exception as e:
         await mukesh.edit_text(f"error {e}")
     
