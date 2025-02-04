@@ -13,7 +13,7 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-BOT_USERNAME = getenv("BOT_USERNAME", "xteam_clonebot")
+BOT_USERNAME = getenv("BOT_USERNAME", "yasamusic_bot")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI")
@@ -34,15 +34,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/JIYOXC/Wleowleo",
+    "https://github.com/yakhsyaa/yamusik",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LullaProject")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/lullagroup")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Doongoo")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+MGj4fMAbQ8M0ZThl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -80,22 +80,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/8d7b534e34e13316a7dd2.jpg"
+    "START_IMG_URL", "assets/yamus.png"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/ca95213f8c1dd9a19c239.jpg"
+    "PING_IMG_URL", "assets/yas1.jpg"
 )
-PLAYLIST_IMG_URL ="https://telegra.ph/file/8d7b534e34e13316a7dd2.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
-
+PLAYLIST_IMG_URL = "assets/yas2.jpg"
+STATS_IMG_URL = "assets/yamus.png"
+TELEGRAM_AUDIO_URL = "assets/yas3.jpg"
+TELEGRAM_VIDEO_URL = "assets/yas1.jpg"
+STREAM_IMG_URL = "assets/yas2.jpg"
+SOUNCLOUD_IMG_URL = "assets/yas3.jpg"
+YOUTUBE_IMG_URL = "assets/yas1.jpg"
+SPOTIFY_ARTIST_IMG_URL = "assets/yas2.jpg"
+SPOTIFY_ALBUM_IMG_URL = "assets/yas3.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "assets/yas3.jpg"
 
 def time_to_seconds(time):
     stringt = str(time)
